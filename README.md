@@ -12,7 +12,7 @@ class Classifier():
  self.class_attr = class_attr 
  ''' 
  probability(class) = How many times it appears in cloumn 
- 
+ -----------------------------------------------------
  count of all class attribute 
  ''' 
  def calculate_priori(self): 
@@ -25,7 +25,7 @@ class Classifier():
  Here we calculate the individual probabilites 
  P(outcome|evidence) = P(Likelihood of Evidence) x Prior prob of 
 outcome 
-
+---------------------------------------------------------
  P(Evidence) 
  ''' 
  def get_cp(self, attr, attr_type, class_value): 
